@@ -1,6 +1,6 @@
-package steps;
+package com.mgs.restframework;
 
-import cucumber.api.PendingException;
+import com.mgs.restframework.services.RestService;
 import cucumber.api.java.ru.Дано;
 import cucumber.api.java.ru.То;
 
@@ -14,4 +14,6 @@ public class SimpleSteps {
     public void doStep2(){
         System.out.println("step2");
     }
+
+
 }

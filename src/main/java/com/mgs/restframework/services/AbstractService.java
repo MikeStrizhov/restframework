@@ -1,10 +1,12 @@
 package com.mgs.restframework.services;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.logging.LogManager;
 
 public abstract class AbstractService {
-    protected Logger log = LogManager.getLogger(this.getClass());
+    protected Logger log = LoggerFactory.getLogger(this.getClass());
 
     /**
      * Default timeout in seconds
